@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goutam Patel - Resume</title>
+    <!-- Importing Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons for Interactive Visuals -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Interactive Background Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navigation Bar using Flexbox -->
+    <nav class="navbar">
+        <div class="logo"><i class="fa-solid fa-code"></i> GP.</div>
+        <ul class="nav-links">
+            <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+            <li><a href="#experience"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+            <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#skills"><i class="fa-solid fa-bolt"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero hero-split">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Goutam Patel</span> <span class="wave">👋</span></h1>
+            <p class="subtitle">Pursuing BBA (DBE) at IIM Bangalore & Based in Ahmedabad</p>
+            <div class="hero-btns" style="margin-top: 2rem; flex-wrap: wrap;">
+                <a href="Goutam_Patel_Resume.pdf" download class="btn-primary" style="background: #FF007A; color: white;"><i class="fa-solid fa-download"></i> Download Resume</a>
+                <a href="#contact" class="btn-secondary"><i class="fa-solid fa-envelope"></i> Let's Connect</a>
+                <a href="#experience" class="btn-secondary"><i class="fa-solid fa-briefcase"></i> Experience</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <i class="fa-brands fa-space-awesome hero-illustration"></i>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title"><i class="fa-solid fa-id-badge"></i> About Me</h2>
+            <div class="card glass-card text-center">
+                <i class="fa-solid fa-user-tie section-big-icon"></i>
+                <p>I am Goutam Patel, currently pursuing BBA (DBE) from the Indian Institute of Management Bangalore and based in Ahmedabad, Gujarat. Originally from Bud Bud, a small town in West Bengal, I bring a grounded perspective along with a strong drive to grow and achieve more. I have a profound interest in entrepreneurship and digital business, and I am actively exploring opportunities to build skills in marketing, management, and business operations.</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Practical Experience</h2>
+            <div class="card-grid">
+                <!-- Card 1: Manager -->
+                <div class="card glass-card">
+                    <i class="fa-solid fa-ice-cream card-icon"></i>
+                    <h3 class="card-title">Junior Manager</h3>
+                    <p class="card-subtitle">Chill House Ice Cream Parlour &bull; Sep 2025 – Present</p>
+                    <p class="card-desc">
+                        Manage end-to-end store operations, inventory, and billing, generating ₹20K+ daily revenue. Supervise a 6-member team, driving operational efficiency and sales growth.
+                    </p>
+                </div>
+                <!-- Card 2: Social Media -->
+                <div class="card glass-card">
+                    <i class="fa-solid fa-hashtag card-icon"></i>
+                    <h3 class="card-title">Social Media Team Member</h3>
+                    <p class="card-subtitle">Big Scoop Cafe &bull; Apr 2025 – Present</p>
+                    <p class="card-desc">
+                        Plan and execute Instagram content strategies, growing the page to 1,500+ followers. Coordinate influencer collaborations and conduct trend research to drive brand visibility.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title"><i class="fa-solid fa-building-columns"></i> Education</h2>
+            <div class="card-grid">
+                <!-- Card 1 -->
+                <div class="card glass-card">
+                    <i class="fa-solid fa-laptop-code card-icon"></i>
+                    <h3 class="card-title">Indian Institute of Management Bangalore</h3>
+                    <p class="card-subtitle">BBA (Digital Business & Entrepreneurship)</p>
+                    <p class="card-desc">Exploring the intersection of modern marketing, strategic management, digital business landscapes, and core operations to build a strong entrepreneurial foundation.</p>
+                </div>
+                <!-- Card 2: Previous Education -->
+                <div class="card glass-card">
+                    <i class="fa-solid fa-school card-icon"></i>
+                    <h3 class="card-title">Previous Education</h3>
+                    <p class="card-subtitle">High School & Secondary Board</p>
+                    <p class="card-desc">
+                        <strong>Class XII:</strong> Kendriya Vidyalaya Panagarh (85%)<br><br>
+                        <strong>Class X:</strong> St. Michael’s School (86%)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title"><i class="fa-solid fa-bolt"></i> Core Skills</h2>
+            <div class="skills-container">
+                <span class="skill-tag"><i class="fa-solid fa-rocket"></i> Entrepreneurship</span>
+                <span class="skill-tag"><i class="fa-solid fa-laptop-code"></i> Digital Business</span>
+                <span class="skill-tag"><i class="fa-solid fa-bullseye"></i> Marketing Strategy</span>
+                <span class="skill-tag"><i class="fa-solid fa-users-gear"></i> Management Ops</span>
+                <span class="skill-tag"><i class="fa-solid fa-face-smile"></i> Customer Handling</span>
+                <span class="skill-tag"><i class="fa-brands fa-html5"></i> Web Front-End (HTML/CSS)</span>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section text-center">
+            <h2 class="section-title"><i class="fa-solid fa-address-book"></i> Get In Touch</h2>
+            <div class="card glass-card contact-box">
+                <i class="fa-solid fa-headset section-big-icon"></i>
+                <p>Are you interested in discussing tech, data, entrepreneurship, or management opportunities? Let's connect!</p>
+                <div style="display: flex; flex-direction: column; gap: 1.2rem; margin-top: 2rem; font-size: 1.1rem;">
+                    <a href="mailto:2005goutampatel@gmail.com" class="card-title" style="text-decoration: none; font-size: 1.3rem;"><i class="fa-solid fa-envelope"></i> 2005goutampatel@gmail.com</a>
+                    <a href="tel:+919088816661" class="card-title" style="text-decoration: none; font-size: 1.3rem;"><i class="fa-solid fa-phone"></i> +91 9088816661</a>
+                    <a href="https://www.linkedin.com/in/goutampatel2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="card-title" style="text-decoration: none; font-size: 1.3rem;"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Goutam Patel. Crafted with <i class="fa-solid fa-heart" style="color: #ff4b4b; animation: pulse 1.5s infinite;"></i> and modern CSS.</p>
+    </footer>
+</body>
+</html>
